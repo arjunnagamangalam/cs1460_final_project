@@ -12,7 +12,7 @@ def main():
     # --- Configuration ---
     # NOTE: Set epochs higher (e.g., 3-5) when running your final job on a cluster. 
     # Keep it at 1-2 for local testing to save time.
-    epochs = 3
+    epochs = 5
     batch_size = 16
     
     # LoRA typically requires a higher learning rate (e.g., 2e-4) than full fine-tuning (e.g., 2e-5)
